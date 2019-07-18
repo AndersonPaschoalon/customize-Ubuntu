@@ -212,6 +212,9 @@ git:		#controll of version
 	- sudo apt-get install meld
 	@echo "Configure diff tool as meld"
 	- git config --global diff.external meld	
+	- make meld-git
+	- make git-keep
+	- sudo apt-get install retext
 
 web:		#command-line web tools: curl, wget, lynx and w3m
 	-  sudo apt-get install curl wget lynx w3m
